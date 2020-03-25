@@ -2,9 +2,6 @@ import React from 'react';
 import Square from "./RowComponents/Square";
 
 class Row extends React.Component {
-    renderSquare(i) {
-      return <Square />;
-    }
   
     render() { 
       let widthArray = [];
