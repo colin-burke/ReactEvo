@@ -59,11 +59,27 @@ ol, ul {
 }
 
 .grid-square {
-  height: 45px; 
-  width: 45px; 
+  height: 45px;
+  width: 45px;
   background-color: lightblue;
   border-width: 1px;
   border-style: solid;
   border-color: black;
   float: left;
+}
+
+.food-dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.creature-dot {
+  height: 30px;
+  width: 30px;
+  background-color: darkgreen;
+  border-radius: 50%;
+  display: inline-block;
 }
