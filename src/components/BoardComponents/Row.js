@@ -7,7 +7,7 @@ class Row extends React.Component {
       let widthArray = [];
   
       for (let i=0; i < this.props.boardWidth; i++) {
-        widthArray.push(<Square key={i} xVal={i} yVal={this.props.yVal}/>);
+        widthArray.push(<Square key={i} xVal={i} yVal={this.props.yVal} squareObj={this.props.squaresArray[i]}/>);
       }
   
       return(
